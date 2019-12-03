@@ -9,11 +9,14 @@
       "android",
       "web"
     ],
+    "androidStatusBar": {
+      "backgroundColor": "#dfdfdf"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "splash": {
-      "image": "./assets/images/splash.png",
+    "icon": "./assets/images/logo",
+    "splash": {  
+      "image": "./assets/images/splash1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,6 +28,18 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.example.Acti_50",
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "resizeMode": "cover",
+        "mdpi": "./assets/images/splash1.png",
+        "hdpi": "./assets/images/splash2.png",
+        "xhdpi": "./assets/images/splash3.png",
+        "xxhdpi": "./assets/images/splash4.png",
+        "xxxhdpi": "./assets/images/splash5.png"
+      }
+  }
   }
 }
